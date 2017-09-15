@@ -1,0 +1,40 @@
+
+.Header-Wrapper {
+  width: 100%;
+  height: 20vh;
+    background-color: #222;
+    color: white;
+      position: relative;
+      top: 0;
+      left: 0;
+      margin: 0;
+      z-index: 20;
+        display: flex;
+}
+.Header-Title {
+  height: 100%;
+  width: 100%;
+  font-size: 4vw;
+      position: absolute;
+      z-index: 100;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.Header-Text {
+
+
+}
+.Header-Displays {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Header-Display-Blocks {
+  height: 100%;
+  border: 1px solid black;
+  width: calc(100% / 5);
+}
