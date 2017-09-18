@@ -1,0 +1,12 @@
+.Footer-Container {
+  width: 100%;
+  background-color: yellow;
+  height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.Footer-Item {
+  width: calc(100% / 3);
+}
