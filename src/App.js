@@ -13,7 +13,7 @@ class App extends React.Component {
     return (
       <div className="App">
       < Header/>
-      < Body query="dogs and catz" limit={10}/>
+      < Body/>
       < Input/>
       < Footer/>
       </div>
